@@ -22,6 +22,6 @@ class InterfaceController extends Yaf_Controller_Abstract {
         //2. fetch model
         $model = new SampleModel();
 
-        return $post?:$model->selectSample();
+        echo $post?:$model->selectSample();
     }
 }
