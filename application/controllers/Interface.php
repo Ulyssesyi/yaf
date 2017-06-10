@@ -23,5 +23,6 @@ class InterfaceController extends Yaf_Controller_Abstract {
         $model = new SampleModel();
 
         echo $post?:$model->selectSample();
+        return false;
     }
 }
